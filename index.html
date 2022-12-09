@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="bootstrap.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -61,7 +62,11 @@
     <div class="team container-fluid py-5">
       <div class="container">
         <h2 class="display-4 text-center">Leadership <strong>Team</strong></h2>
-        <div class="row mt-4 text-center">
+        <div
+          class="row mt-4 text-center"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <div class="col-sm-6 col-lg-3">
             <img
               src="images/pic1.jpg"
@@ -106,7 +111,12 @@
     </div>
 
     <div class="join container-fluid text-center d-flex align-items-center">
-      <div class="container">
+      <div
+        class="container"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-offset="200"
+      >
         <h2 class="display-4">join Monkeys <strong>today</strong></h2>
         <p class="mx-auto">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam magni
@@ -122,11 +132,21 @@
         <div
           class="row justify-content-between align-items-center text-center text-lg-start"
         >
-          <div class="col-lg-5">
+          <div
+            class="col-lg-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="200"
+          >
             <img src="images/refelct.jpg" alt="" class="img-fluid" />
           </div>
 
-          <div class="col-lg-6">
+          <div
+            class="col-lg-6"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="200"
+          >
             <h2 class="display-4">The Best site ever</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
@@ -139,7 +159,12 @@
             </p>
           </div>
 
-          <div class="col-lg-6 mt-lg-5 order-4">
+          <div
+            class="col-lg-6 mt-lg-5 order-4"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="200"
+          >
             <h2 class="display-4">Sunscribe today!</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
@@ -152,12 +177,21 @@
             </p>
           </div>
 
-          <div class="col-lg-5 mt-5 order-lg-5">
+          <div
+            class="col-lg-5 mt-5 order-lg-5"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-offset="200"
+          >
             <img src="images/refelct2.jpg" alt="" class="img-fluid" />
           </div>
         </div>
       </div>
     </main>
     <script src="burger.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
